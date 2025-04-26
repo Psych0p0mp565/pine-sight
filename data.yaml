@@ -1,0 +1,13 @@
+train: mealybug-dataset/train/images
+val: mealybug-dataset/valid/images
+test: mealybug-dataset/test/images
+
+
+nc: 1
+names: ['mealybug']
+roboflow:
+  workspace: pine3
+  project: mealy-bug-ghqvm-zv31r
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pine3/mealy-bug-ghqvm-zv31r/dataset/1
